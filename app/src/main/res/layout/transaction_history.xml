@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.6">
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_weight="0.2"
+                        android:background="@drawable/payment_info">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="@string/transaction_history_text"
+                                    android:textColor="#2D73B1"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20dp"
+                                    android:textSize="16sp"
+                                    android:layout_marginStart="60dp"
+                                    android:text="@string/txtUserNum">
+
+                                </TextView>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginHorizontal="50dp"
+                                    android:gravity="left"
+                                    tools:ignore="RtlHardcoded">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="3dp"
+                                        android:layout_marginVertical="4dp"
+                                        android:hint="00 123 456"
+                                        android:background="@drawable/qr_input_bg"
+                                        android:gravity="left"
+                                        />
+
+
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20dp"
+                                    android:layout_marginStart="60dp"
+                                    android:text="@string/process_type_text"
+                                    android:textSize="16sp">
+
+                                </TextView>
+
+                                <Spinner
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:layout_marginHorizontal="52.3dp"
+                                    android:layout_marginTop="23dp"
+                                    android:drawSelectorOnTop="true"
+                                    android:background="@drawable/qr_input_bg"
+                                    android:entries="@array/process_type"
+                                    tools:ignore="TooDeepLayout">
+
+                                </Spinner>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <RelativeLayout
+                                            android:layout_width="120dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="30dp"
+                                            android:layout_marginStart="40dp">
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="20dp"
+
+                                                android:text="Başlangıç Tarihi"
+                                                android:textColor="@android:color/darker_gray"
+                                                tools:ignore="RtlHardcoded">
+
+                                            </TextView>
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="30dp"
+                                                android:layout_marginTop="20dp"
+                                                android:background="@drawable/credit_cart_bg"
+                                                android:gravity="center"
+                                                android:text="Cm,9 kasım 2021"
+                                                android:textColor="@color/white"
+                                                tools:ignore="RtlHardcoded">
+
+                                            </TextView>
+
+                                        </RelativeLayout>
+
+                                        <RelativeLayout
+                                            android:layout_width="60dp"
+                                            android:layout_height="60dp"
+                                            android:gravity="center"
+                                            android:layout_marginTop="20dp"
+                                            android:layout_marginHorizontal="3dp"
+                                            android:background="@mipmap/datetime_icon_transfer_foreground">
+                                        </RelativeLayout>
+
+                                        <RelativeLayout
+                                            android:layout_width="120dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="30dp">
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="20dp"
+
+                                                android:text="Bitiş Tarihi"
+                                                android:textColor="@android:color/darker_gray"
+                                                tools:ignore="RtlHardcoded">
+
+                                            </TextView>
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="30dp"
+                                                android:layout_marginTop="20dp"
+                                                android:background="@drawable/credit_cart_bg"
+                                                android:gravity="center"
+                                                android:text="Çrş,14 kasım 2021"
+                                                android:textColor="@color/white"
+                                                tools:ignore="RtlHardcoded">
+
+                                            </TextView>
+
+                                        </RelativeLayout>
+
+                                    </LinearLayout>
+
+                                </RelativeLayout>
+
+
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="260dp"
+                                    android:layout_marginTop="100dp"
+                                    android:gravity="bottom|center">
+
+                                    <CalendarView
+                                        android:id="@+id/calendarView"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="35dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginHorizontal="120dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:background="@drawable/login_button_gradient">
+
+                                    <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="@string/transaction_button_text"
+                                        android:textColor="@color/black"
+                                        android:background="@android:color/transparent">
+
+                                    </Button>
+
+                                </RelativeLayout>
+
+
+                            </RelativeLayout>
+
+
+
+
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_color"
+            tools:context=".MainActivity">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/background_color"
+                app:itemIconTint="@color/white"
+                app:itemTextColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:menu="@menu/bottom_nav_menu" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

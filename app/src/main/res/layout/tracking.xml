@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.6">
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_weight="0.2"
+                        android:background="@drawable/payment_info">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.89">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="@string/tracking_title"
+                                    android:textColor="#2D73B1"
+                                    android:textSize="18sp"
+                                    android:textStyle="normal">
+
+                                </TextView>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.58">
+
+                                <com.github.mikephil.charting.charts.PieChart
+                                    android:id="@+id/chart"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                </com.github.mikephil.charting.charts.PieChart>
+
+                            </RelativeLayout>
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.89">
+
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.54">
+
+                                <ScrollView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="60dp"
+                                                android:orientation="horizontal">
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.55"
+                                                    android:layout_margin="7dp"
+                                                    android:background="@drawable/credit_cart_bg">
+
+                                                    <Button
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_marginStart="6dp"
+                                                        android:background="@android:color/transparent"
+                                                        app:icon="@mipmap/creditcard_icon_tahsilat_foreground"
+                                                        app:iconGravity="textStart"
+                                                        app:iconSize="80dp">
+
+                                                    </Button>
+
+
+                                                </RelativeLayout>
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.33">
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:text="@string/tracking_username"
+                                                        android:gravity="top|start">
+
+                                                    </TextView>
+
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_alignParentEnd="true"
+                                                        android:layout_alignParentBottom="true"
+                                                        android:layout_marginBottom="14dp"
+                                                        android:text="@string/tracking_with_card"
+                                                        android:textStyle="bold">
+
+                                                    </TextView>
+
+
+                                                </RelativeLayout>
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.5">
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:text="@string/tracking_amount"
+                                                        android:gravity="top|start">
+
+                                                    </TextView>
+
+                                                </RelativeLayout>
+
+
+                                            </LinearLayout>
+
+                                        </RelativeLayout>
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="60dp"
+                                                android:orientation="horizontal">
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.55"
+                                                    android:layout_margin="7dp"
+                                                    android:background="@drawable/credit_cart_bg">
+
+                                                    <Button
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_marginStart="6dp"
+                                                        android:background="@android:color/transparent"
+                                                        app:icon="@mipmap/qr_icon_foreground"
+                                                        app:iconGravity="textStart"
+                                                        app:iconSize="80dp">
+
+                                                    </Button>
+
+
+                                                </RelativeLayout>
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.33">
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:text="@string/tracking_username"
+                                                        android:gravity="top|start">
+
+                                                    </TextView>
+
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_alignParentEnd="true"
+                                                        android:layout_alignParentBottom="true"
+                                                        android:layout_marginBottom="14dp"
+                                                        android:text="@string/tracking_with_qr"
+                                                        android:textStyle="bold">
+
+                                                    </TextView>
+
+
+                                                </RelativeLayout>
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.5">
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:text="@string/tracking_amount"
+                                                        android:gravity="top|start">
+
+                                                    </TextView>
+
+                                                </RelativeLayout>
+
+
+                                            </LinearLayout>
+
+                                        </RelativeLayout>
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="60dp"
+                                                android:orientation="horizontal">
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.55"
+                                                    android:layout_margin="7dp"
+                                                    android:background="@drawable/credit_cart_bg">
+
+                                                    <Button
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_marginStart="6dp"
+                                                        android:background="@android:color/transparent"
+                                                        app:icon="@mipmap/sms_icon_foreground"
+                                                        app:iconGravity="textStart"
+                                                        app:iconSize="80dp">
+
+                                                    </Button>
+
+
+                                                </RelativeLayout>
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.33">
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:text="@string/tracking_username"
+                                                        android:gravity="top|start">
+
+                                                    </TextView>
+
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_alignParentEnd="true"
+                                                        android:layout_alignParentBottom="true"
+                                                        android:layout_marginBottom="14dp"
+                                                        android:text="@string/tracking_with_sms"
+                                                        android:textStyle="bold">
+
+                                                    </TextView>
+
+
+                                                </RelativeLayout>
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.5">
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:text="@string/tracking_amount"
+                                                        android:gravity="top|start">
+
+                                                    </TextView>
+
+                                                </RelativeLayout>
+
+
+                                            </LinearLayout>
+
+                                        </RelativeLayout>
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="60dp"
+                                                android:orientation="horizontal">
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.55"
+                                                    android:layout_margin="7dp"
+                                                    android:background="@drawable/credit_cart_bg">
+
+                                                    <Button
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_marginStart="6dp"
+                                                        android:background="@android:color/transparent"
+                                                        app:icon="@mipmap/link_icon_foreground"
+                                                        app:iconGravity="textStart"
+                                                        app:iconSize="60dp">
+
+                                                    </Button>
+
+
+                                                </RelativeLayout>
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.33">
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:text="@string/tracking_username"
+                                                        android:gravity="top|start">
+
+                                                    </TextView>
+
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_alignParentEnd="true"
+                                                        android:layout_alignParentBottom="true"
+                                                        android:layout_marginBottom="14dp"
+                                                        android:text="@string/tracking_with_link"
+                                                        android:textStyle="bold">
+
+                                                    </TextView>
+
+
+                                                </RelativeLayout>
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.5">
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:text="@string/tracking_amount"
+                                                        android:gravity="top|start">
+
+                                                    </TextView>
+
+                                                </RelativeLayout>
+
+
+                                            </LinearLayout>
+
+                                        </RelativeLayout>
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="60dp"
+                                                android:orientation="horizontal">
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.55"
+                                                    android:layout_margin="7dp"
+                                                    android:background="@drawable/credit_cart_bg">
+
+                                                    <Button
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_marginStart="6dp"
+                                                        android:background="@android:color/transparent"
+                                                        app:icon="@mipmap/qr_icon_foreground"
+                                                        app:iconGravity="textStart"
+                                                        app:iconSize="80dp">
+
+                                                    </Button>
+
+
+                                                </RelativeLayout>
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.33">
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:text="@string/tracking_username"
+                                                        android:gravity="top|start">
+
+                                                    </TextView>
+
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_alignParentEnd="true"
+                                                        android:layout_alignParentBottom="true"
+                                                        android:layout_marginBottom="14dp"
+                                                        android:text="@string/tracking_with_qr"
+                                                        android:textStyle="bold">
+
+                                                    </TextView>
+
+
+                                                </RelativeLayout>
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.5">
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:text="@string/tracking_amount"
+                                                        android:gravity="top|start">
+
+                                                    </TextView>
+
+                                                </RelativeLayout>
+
+
+                                            </LinearLayout>
+
+                                        </RelativeLayout>
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="60dp"
+                                                android:orientation="horizontal">
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.55"
+                                                    android:layout_margin="7dp"
+                                                    android:background="@drawable/credit_cart_bg">
+
+                                                    <Button
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_marginStart="6dp"
+                                                        android:background="@android:color/transparent"
+                                                        app:icon="@mipmap/sms_icon_foreground"
+                                                        app:iconGravity="textStart"
+                                                        app:iconSize="80dp">
+
+                                                    </Button>
+
+
+                                                </RelativeLayout>
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.33">
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:text="@string/tracking_username"
+                                                        android:gravity="top|start">
+
+                                                    </TextView>
+
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_alignParentEnd="true"
+                                                        android:layout_alignParentBottom="true"
+                                                        android:layout_marginBottom="14dp"
+                                                        android:text="@string/tracking_with_sms"
+                                                        android:textStyle="bold">
+
+                                                    </TextView>
+
+
+                                                </RelativeLayout>
+
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.5">
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:text="@string/tracking_amount"
+                                                        android:gravity="top|start">
+
+                                                    </TextView>
+
+                                                </RelativeLayout>
+
+
+                                            </LinearLayout>
+
+                                        </RelativeLayout>
+
+
+                                    </LinearLayout>
+
+                                </ScrollView>
+
+
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_color"
+            tools:context=".MainActivity">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/background_color"
+                app:itemIconTint="@color/white"
+                app:itemTextColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:menu="@menu/bottom_nav_menu" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/safak/Desktop/ozan_app/app/src/main/res/layout/activity_main.xml" value="0.15846994535519127" />
+        <entry key="..\:/Users/safak/Desktop/ozan_app/app/src/main/res/layout/main.xml" value="0.2" />
+        <entry key="..\:/Users/safak/Desktop/ozan_app/app/src/main/res/layout/payment.xml" value="0.15846994535519127" />
+        <entry key="..\:/Users/safak/Desktop/ozan_app/app/src/main/res/layout/payment_amount.xml" value="0.15846994535519127" />
+        <entry key="..\:/Users/safak/Desktop/ozan_app/app/src/main/res/layout/qr_payment.xml" value="0.15846994535519127" />
+        <entry key="..\:/Users/safak/Desktop/ozan_app/app/src/main/res/layout/tracking.xml" value="0.15846994535519127" />
+        <entry key="..\:/Users/safak/Desktop/ozan_app/app/src/main/res/layout/transaction_history.xml" value="0.15846994535519127" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/background_color.xml" value="0.2722222222222222" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/background_round.xml" value="0.2722222222222222" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/card_icon_background.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/contactless_icon_background.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/credit_card_icon_background.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/credit_cart_bg.xml" value="0.2722222222222222" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/creditcard_icon_bg.xml" value="0.2722222222222222" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/creditcard_icon_tahsilat_background.xml" value="0.309375" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/datetime _transfer_icon_background.xml" value="0.23203125" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/delete_icon_background.xml" value="0.23203125" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/file_icon_background.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/gift_icon_background.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/link_icon_background.xml" value="0.309375" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/login_button_gradient.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/main_card_bg.xml" value="0.309375" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/pay_circle.xml" value="0.23203125" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/payment_cancel_bg.xml" value="0.23203125" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/payment_circle.xml" value="0.309375" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/payment_info.xml" value="0.309375" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/payment_rectangle.xml" value="0.309375" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/payment_text_bg.xml" value="0.309375" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/qr_icon_background.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/qr_textinput_bg.xml" value="0.23203125" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/security_icon_background.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/small_circle.xml" value="0.309375" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/sms_icon_background.xml" value="0.309375" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/textview_bg.xml" value="0.2722222222222222" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/transfer_background.xml" value="0.3046153846153846" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/transparent_bg.xml" value="0.2722222222222222" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/drawable/w_bg.xml" value="0.23203125" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/layout-v23/payment_amount.xml" value="0.29322916666666665" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/layout/activity_main.xml" value="0.266304347826087" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/layout/bu.xml" value="0.17" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/layout/main.xml" value="0.266304347826087" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/layout/payment.xml" value="0.266304347826087" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/layout/payment_amount.xml" value="0.25" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/layout/qr_payment.xml" value="0.219921875" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/layout/tracking.xml" value="0.25" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/layout/transaction_history.xml" value="0.219921875" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/menu/bottom_nav_menu.xml" value="0.29322916666666665" />
+        <entry key="..\:/Users/safak/StudioProjects/ozan_app/app/src/main/res/mipmap/qr_icon_round.xml" value="0.3046153846153846" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

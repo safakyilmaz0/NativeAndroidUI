@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.6">
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.9">
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.54">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="20dp"
+                                    android:background="@drawable/credit_cart_bg"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.45">
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="0.9">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_marginStart="10dp"
+                                                    android:gravity="center|left"
+                                                    android:text="@string/payment_bank"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="20sp"
+                                                    android:textStyle="bold"
+                                                    tools:ignore="RtlHardcoded">
+
+                                                </TextView>
+
+                                            </RelativeLayout>
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="0.9">
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:background="@drawable/login_button_gradient"
+                                                    android:layout_margin="17dp">
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:text="@string/payment_card_num"
+                                                        android:gravity="center"
+                                                        android:textStyle="bold"
+                                                        android:textSize="20sp"
+                                                        android:textColor="@color/black">
+
+                                                    </TextView>
+
+                                                </LinearLayout>
+
+                                            </RelativeLayout>
+
+                                        </LinearLayout>
+
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.9">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="25dp"
+                                            android:layout_gravity="bottom"
+                                            android:layout_marginBottom="10dp"
+                                            android:background="@color/white">
+
+                                        </TextView>
+
+                                    </RelativeLayout>
+
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.9">
+
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_weight="0.2"
+                        android:background="@drawable/payment_info">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.54">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="@string/payment_card_title"
+                                    android:textColor="#2D73B1"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.52">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginHorizontal="50dp"
+                                    android:layout_marginVertical="4dp"
+                                    android:background="@drawable/payment_text_bg"
+                                    android:gravity="left"
+                                    tools:ignore="RtlHardcoded">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginHorizontal="3dp"
+                                        android:layout_marginVertical="3dp"
+                                        android:background="@drawable/w_bg"
+                                        android:gravity="left"
+                                        android:hint="@string/payment_card_name"
+
+                                        />
+
+
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.52">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginHorizontal="50dp"
+                                    android:layout_marginVertical="4dp"
+                                    android:background="@drawable/payment_text_bg"
+                                    android:gravity="left"
+                                    tools:ignore="RtlHardcoded">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginHorizontal="3dp"
+                                        android:layout_marginVertical="3dp"
+                                        android:background="@drawable/w_bg"
+                                        android:gravity="left"
+                                        android:hint="@string/payment_creditCard_num"
+
+                                        />
+
+
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.52">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.52">
+
+                                        <com.google.android.material.textfield.TextInputLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginVertical="4dp"
+                                            android:layout_marginStart="50dp"
+                                            android:layout_marginEnd="7dp"
+                                            android:background="@drawable/payment_text_bg"
+                                            android:gravity="right"
+                                            tools:ignore="RtlHardcoded">
+
+                                            <com.google.android.material.textfield.TextInputEditText
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_marginHorizontal="3dp"
+                                                android:layout_marginVertical="3dp"
+                                                android:background="@drawable/w_bg"
+                                                android:gravity="left"
+                                                android:hint="@string/payment_skt" />
+                                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.52">
+
+                                        <com.google.android.material.textfield.TextInputLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginVertical="4dp"
+                                            android:layout_marginStart="7dp"
+                                            android:layout_marginEnd="50dp"
+                                            android:background="@drawable/payment_text_bg"
+                                            android:gravity="right"
+                                            tools:ignore="RtlHardcoded">
+
+                                            <com.google.android.material.textfield.TextInputEditText
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_marginHorizontal="3dp"
+                                                android:layout_marginVertical="3dp"
+                                                android:background="@drawable/w_bg"
+                                                android:gravity="left"
+                                                android:hint="@string/payment_ccv" />
+                                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                                    </RelativeLayout>
+
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.52">
+
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginHorizontal="50dp"
+                                    android:layout_marginVertical="4dp"
+                                    android:background="@drawable/payment_text_bg"
+                                    android:gravity="left"
+                                    tools:ignore="RtlHardcoded">
+
+
+                                    <EditText
+                                        android:id="@+id/editTextPhone"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="left"
+                                        android:layout_marginHorizontal="3dp"
+                                        android:layout_marginVertical="3dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/w_bg"
+                                        android:ems="10"
+                                        android:hint="@string/payment_phone_num"
+                                        android:inputType="phone" />
+
+
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.48">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginHorizontal="50dp"
+                                    android:layout_marginVertical="5dp"
+                                    android:background="@drawable/payment_text_bg">
+
+                                    <EditText
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="left"
+                                        android:hint="@string/payment_description"
+                                        android:inputType="textMultiLine"
+                                        android:lines="8"
+                                        android:maxLines="10"
+                                        android:minLines="6"
+                                        android:scrollbars="vertical"
+                                        tools:ignore="RtlHardcoded" />
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.54">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="110dp"
+                                    android:layout_marginTop="0dp"
+                                    android:layout_marginRight="110dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:background="@drawable/login_button_gradient"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:text="@string/payment_button"
+                                        android:textColor="@color/black"
+                                        android:textSize="17sp"
+                                        android:textStyle="bold"
+                                        android:background="@android:color/transparent">
+
+                                    </Button>
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_color"
+            tools:context=".MainActivity">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/background_color"
+                app:itemIconTint="@color/white"
+                app:itemTextColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:menu="@menu/bottom_nav_menu" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

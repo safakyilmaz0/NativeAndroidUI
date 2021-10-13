@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txtCompanyName">OZAN</string>
+    <string name="txtUserNum">Üye İşyeri Numarası</string>
+    <string name="txtUserPass">Üye İşyeri Şifresi</string>
+    <string name="txtLogin">Giriş</string>
+    <string name="txtForgotPass">Şifremi Unuttum?</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mainCompanyName">VAKKO MAĞAZASI</string>
+    <string name="mainAmount">BAKİYE</string>
+    <string name="mainTransfer">TRANSFER</string>
+    <string name="mainUpdate">GÜNCELLE</string>
+
+    <string name="mainIconTransfers">Transferler</string>
+    <string name="mainIconPayment">Ödemeler</string>
+    <string name="mainIconDefinedCards">Tanımlı Kartlar</string>
+    <string name="mainIconCard">Kart</string>
+    <string name="mainIconContactless">Temassız</string>
+    <string name="mainIconQr">QR Code</string>
+    <string name="mainIconSecurity">Güvenlik</string>
+    <string name="mainIconDocuments">Belgeler</string>
+    <string name="mainIconGift">Kampanyalar</string>
+    <string name="Amount">₺ 4,180.20</string>
+
+
+</resources>

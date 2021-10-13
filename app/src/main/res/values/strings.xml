@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ozan_app</string>
+    <string name="chart">satislar</string>
+    <string name="menu_exchange">exchange</string>
+    <string name="menu_person">Person</string>
+    <string name="menu_notification">notification</string>
+    <string name="menu_user">user</string>
+    <string name="input_amount">250,00 TL</string>
+    <string name="iptal">İPTAL</string>
+    <string name="qr_payment_title">QR Kod ile Hızlı Ödeme</string>
+    <string name="qr_payment_content">Lütfen karekodu müşterinizin görebileceği şekilde tutunuz.</string>
+    <string name="qr_payment_refresh">QR kod okunamadı mı? Kodu <u>Yenileyin</u></string>
+    <string name="amount">TUTAR</string>
+    <string name="transaction_history_text">İşlem Geçmişi</string>
+    <string name="process_type_text">İşlem Tipini Seçiniz</string>
+    <string name="transaction_button_text">Getir</string>
+
+    <string-array name="array_name">
+        <item>TRY</item>
+        <item>USD</item>
+        <item>EUR</item>
+    </string-array>
+
+
+    <string-array name="process_type">
+        <item>Tümü</item>
+        <item>Gelir</item>
+        <item>Gider</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="payment_bank">BANKA</string>
+    <string name="payment_card_num">KART 1</string>
+    <string name="payment_card_title"><![CDATA[Kredi Kartı & Banka Kartı]]></string>
+    <string name="payment_card_name">Kart Sahibinin Adı ve Soyadı</string>
+    <string name="payment_creditCard_num">Kart Numarası</string>
+    <string name="payment_skt">SKT</string>
+    <string name="payment_ccv">CCV</string>
+    <string name="payment_phone_num">Telefon Numarası</string>
+    <string name="payment_description">Açıklama ( Opsiyonel )</string>
+    <string name="payment_button">ÖDEME AL</string>
+</resources>
